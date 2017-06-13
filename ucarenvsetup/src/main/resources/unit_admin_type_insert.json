@@ -1,0 +1,26 @@
+[
+	{
+		"code": "0",
+		"description": "Project Accountant",
+		"multiplesFlag": "No",
+		"defaultGroupFlag": "C"
+	},
+	{
+		"code": "0",
+		"description": "Lab/Program Administrator",
+		"multiplesFlag": "Yes",
+		"defaultGroupFlag": "U"
+	},
+	{
+		"code": "0",
+		"description": "Contract Administrator/Owner",
+		"multiplesFlag": "No",
+		"defaultGroupFlag": "U"
+	},
+	{
+		"code": "0",
+		"description": "Other Administrative Contact",
+		"multiplesFlag": "Yes",
+		"defaultGroupFlag": "U"
+	}
+]

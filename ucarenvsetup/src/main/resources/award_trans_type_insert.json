@@ -1,0 +1,97 @@
+[
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Change Sponsor Award Number",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Increment",
+		"showInActionSummary": "true"
+	},	
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Modified Terms and Conditions",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Sponsor Approved Action",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Termination-Convenience",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Termination-Default",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Termination-Transfer of Award",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Termination-Transfer of Award",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "_CONTRACTS-Administrative Action",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "_CONTRACTS-Report Action",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "_FINANCE-Administrative Action",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "_FINANCE-Invoice Action",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "_FINANCE-Report Action",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Deobligation, Period of Performance Change",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Deobligation, Scope Change",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Deobligation, Period of Performance Change, Scope Change",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Supplemental Funding, Period of Performance Change",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Supplemental Funding, Scope Change",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Supplemental Funding, Period of Performance Change, Scope Change",
+		"showInActionSummary": "true"
+	}
+]

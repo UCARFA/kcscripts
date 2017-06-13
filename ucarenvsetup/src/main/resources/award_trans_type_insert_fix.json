@@ -1,0 +1,98 @@
+[
+  {
+    "description": "Administrative Amendment",
+    "awardTransactionTypeCode": 1,
+    "showInActionSummary": true,
+    "_primaryKey": "1"
+  },
+  {
+    "description": "Allotment (Increment)",
+    "awardTransactionTypeCode": 2,
+    "showInActionSummary": true,
+    "_primaryKey": "2"
+  },
+  {
+    "description": "Continuation (Amendment)",
+    "awardTransactionTypeCode": 3,
+    "showInActionSummary": true,
+    "_primaryKey": "3"
+  },
+  {
+    "description": "Correction",
+    "awardTransactionTypeCode": 4,
+    "showInActionSummary": true,
+    "_primaryKey": "4"
+  },
+  {
+    "description": "Date Change",
+    "awardTransactionTypeCode": 5,
+    "showInActionSummary": true,
+    "_primaryKey": "5"
+  },
+  {
+    "description": "Deobligation",
+    "awardTransactionTypeCode": 6,
+    "showInActionSummary": true,
+    "_primaryKey": "6"
+  },
+  {
+    "description": "F&A Rate Change",
+    "awardTransactionTypeCode": 7,
+    "showInActionSummary": true,
+    "_primaryKey": "7"
+  },
+  {
+    "description": "Investigator Change",
+    "awardTransactionTypeCode": 8,
+    "showInActionSummary": true,
+    "_primaryKey": "8"
+  },
+  {
+    "description": "New",
+    "awardTransactionTypeCode": 9,
+    "showInActionSummary": true,
+    "_primaryKey": "9"
+  },
+  {
+    "description": "No Cost Extension",
+    "awardTransactionTypeCode": 10,
+    "showInActionSummary": true,
+    "_primaryKey": "10"
+  },
+  {
+    "description": "Restriction Change",
+    "awardTransactionTypeCode": 11,
+    "showInActionSummary": true,
+    "_primaryKey": "11"
+  },
+  {
+    "description": "Subaward Change",
+    "awardTransactionTypeCode": 12,
+    "showInActionSummary": true,
+    "_primaryKey": "12"
+  },
+  {
+    "description": "Supplement",
+    "awardTransactionTypeCode": 13,
+    "showInActionSummary": true,
+    "_primaryKey": "13"
+  },
+  {
+    "description": "Suspension (Stop Work Order)",
+    "awardTransactionTypeCode": 14,
+    "showInActionSummary": true,
+    "_primaryKey": "14"
+  },
+  {
+    "description": "Unit Change",
+    "awardTransactionTypeCode": 15,
+    "showInActionSummary": true,
+    "_primaryKey": "15"
+  },
+  {
+    "description": "Termination",
+    "awardTransactionTypeCode": 16,
+    "showInActionSummary": true,
+    "_primaryKey": "16"
+  }
+]

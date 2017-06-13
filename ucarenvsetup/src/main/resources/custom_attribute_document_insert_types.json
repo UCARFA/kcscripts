@@ -1,0 +1,58 @@
+[
+	{
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	},
+	{
+		"id": "0",
+		"documentTypeName": "ICPR",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	},
+	{
+		"id": "0",
+		"documentTypeName": "INPR",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	},
+	{
+		"id": "0",
+		"documentTypeName": "NGT",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	},
+	{
+		"id": "0",
+		"documentTypeName": "PERS",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	},
+	{
+		"id": "0",
+		"documentTypeName": "PRDV",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	},
+	{
+		"id": "0",
+		"documentTypeName": "PROT",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	},
+	{
+		"id": "0",
+		"documentTypeName": "SAWD",
+		"required": "N",
+		"typeName": "null",
+		"active": "Y"
+	}
+]

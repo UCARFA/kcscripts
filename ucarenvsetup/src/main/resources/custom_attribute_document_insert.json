@@ -1,0 +1,58 @@
+[
+	{
+		"name": "fullProposalTitle",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"		
+	},
+	{
+		"name": "fullProposalTitle",
+		"id": "0",
+		"documentTypeName": "INPR",
+		"required": "false",
+		"typeName": null,
+		"active": "true"		
+	},
+	{
+		"name": "proposalNumber",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"		
+	},
+	{
+		"name": "proposalNumber",
+		"id": "0",
+		"documentTypeName": "INPR",
+		"required": "false",
+		"typeName": null,
+		"active": "true"		
+	},
+	{
+		"name": "proposalStructure",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"		
+	},
+	{
+		"name": "proposalStructure",
+		"id": "0",
+		"documentTypeName": "INPR",
+		"required": "false",
+		"typeName": null,
+		"active": "true"		
+	},
+	{
+		"name": "cpmHistoricalAwardId",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"		
+	},
+]
