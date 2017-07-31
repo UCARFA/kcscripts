@@ -2,25 +2,43 @@
 	{
 		"code": "0",
 		"description": "Project Accountant",
-		"multiplesFlag": "No",
+		"multiplesFlag": false,
 		"defaultGroupFlag": "C"
 	},
 	{
 		"code": "0",
 		"description": "Lab/Program Administrator",
-		"multiplesFlag": "Yes",
+		"multiplesFlag": true,
 		"defaultGroupFlag": "U"
 	},
 	{
 		"code": "0",
 		"description": "Contract Administrator/Owner",
-		"multiplesFlag": "No",
+		"multiplesFlag": false,
 		"defaultGroupFlag": "U"
 	},
 	{
 		"code": "0",
 		"description": "Other Administrative Contact",
-		"multiplesFlag": "Yes",
+		"multiplesFlag": true,
 		"defaultGroupFlag": "U"
-	}
+	},
+	{
+		"code": "0",
+        "description": "Additional Project Accountant",
+        "multiplesFlag": true,
+        "defaultGroupFlag": "U"
+	},
+	{
+        "code": "0",
+        "description": "Additional Procurement Contract Administrator",
+        "multiplesFlag": true,
+        "defaultGroupFlag": "U"
+	},
+	{
+        "code": "0",
+        "description": "Procurement Contract Administrator",
+        "multiplesFlag": true,
+        "defaultGroupFlag": "C"
+	}	
 ]
