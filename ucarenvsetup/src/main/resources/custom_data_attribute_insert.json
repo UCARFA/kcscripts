@@ -31,16 +31,5 @@
 	    "id": "0",
 	    "label": "Proposal Structure",
 	    "lookupReturn": null
-  	},
-  	{
-	    "groupName": "Award Data",
-	    "dataTypeCode": "1",
-	    "dataLength": "60",
-	    "defaultValue": null,
-	    "name": "cpmHistoricalAwardId",
-	    "lookupClass": null,
-	    "id": "0",
-	    "label": "CPM Historical Award ID",
-	    "lookupReturn": null
   	}
 ]
