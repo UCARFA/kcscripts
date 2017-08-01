@@ -23,6 +23,12 @@ public class UpdateAwardTransTypes {
 	private static String REST_API_USER;
 	private static String REST_API_PASSWORD;
 	
+	public UpdateAwardTransTypes (String serverName) {
+		AWARD_TRANS_TYPE_API_URL = "https://" + serverName + ".fanda.ucar.edu/ra/award/api/v1/award-transaction-types/";
+		REST_API_USER = "apiuser";
+		REST_API_PASSWORD = "BlueOrchid05";
+	}
+	
 	public static void main(String[] args) {
 		try {
 			awardTransactionTypeInsert();		
@@ -35,11 +41,7 @@ public class UpdateAwardTransTypes {
 		}
 	}
 	
-	public UpdateAwardTransTypes (String serverName) {
-		AWARD_TRANS_TYPE_API_URL = "https://" + serverName + ".fanda.ucar.edu/ra/award/api/v1/award-transaction-types/";
-		REST_API_USER = "apiuser";
-		REST_API_PASSWORD = "BlueOrchid05";
-	}
+	
 	
 	public void runUpdate() throws Exception {
 		try {
