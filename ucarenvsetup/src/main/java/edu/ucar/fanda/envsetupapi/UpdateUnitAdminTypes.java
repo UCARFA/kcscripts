@@ -35,20 +35,34 @@ public class UpdateUnitAdminTypes {
 	}
 	
 	public static void main(String[] args) {
-		try {
-			System.out.println("\n   ***** Running UpdateUnitAdminTypes(); *****\n");
-			server = "localhost";
-			UNIT_ADMIN_TYPE_API_URL = "http://localhost:8080/kc-dev/research-common/api/v1/unit-administrator-types/";
-			UNIT_ADMINISTRATOR_API_URL = "http://localhost:8080/kc-dev/research-common/api/v1/unit-administrators/";
-			REST_API_USER = "admin";
-			REST_API_PASSWORD = "restapipassword";
-//			unitAdminTypeDelete();	
-			unitAdminTypeInsert();
-			deleteProjectAccountants();
-			assignProjectAccountants();
-			System.out.println("\n   ***** End UpdateUnitAdminTypes(); *****\n");
-		} catch (Exception e) {
-			e.printStackTrace();
+		
+		if (args.length == 0 || args.length > 1) {
+			System.out.println("Must have one and only one argument: server name.\n");
+		} else {
+			server = args[0];
+			
+			if (server.equals("localhost")) {
+				UNIT_ADMIN_TYPE_API_URL = "http://localhost:8080/kc-dev/research-common/api/v1/unit-administrator-types/";
+				UNIT_ADMINISTRATOR_API_URL = "http://localhost:8080/kc-dev/research-common/api/v1/unit-administrators/";
+				REST_API_USER = "admin";
+				REST_API_PASSWORD = "restapipassword";
+			} else {
+				UNIT_ADMIN_TYPE_API_URL = "https://" + server + ".fanda.ucar.edu/ra/research-common/api/v1/unit-administrator-types/";
+				UNIT_ADMINISTRATOR_API_URL = "https://" + server + ".fanda.ucar.edu/ra/research-common/api/v1/unit-administrators/";
+				REST_API_USER = "apiuser";
+				REST_API_PASSWORD = "BlueOrchid05";
+			}		
+		
+			try {
+				System.out.println("\n   ***** Running UpdateUnitAdminTypes(); *****\n");
+	//			unitAdminTypeDelete();	
+				unitAdminTypeInsert();
+				deleteProjectAccountants();
+				assignProjectAccountants();
+				System.out.println("\n   ***** End UpdateUnitAdminTypes(); *****\n");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	

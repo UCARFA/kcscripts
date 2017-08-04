@@ -17,7 +17,7 @@ public class DbUtils {
 			dbPort = Integer.parseInt(serverNumber + Integer.toString(dbPort));
 		}
 		
-		if (server != "localhost") {
+		if (!server.equals("localhost")) {
 			server = server + ".fanda.ucar.edu";
 		}
 		
