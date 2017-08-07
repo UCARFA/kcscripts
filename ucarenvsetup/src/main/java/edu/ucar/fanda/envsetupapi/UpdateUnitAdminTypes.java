@@ -54,7 +54,7 @@ public class UpdateUnitAdminTypes {
 			}		
 		
 			try {
-				System.out.println("\n   ***** Running UpdateUnitAdminTypes(); *****\n");
+				System.out.println("\n   ***** Running UpdateUnitAdminTypes(); To server: " + server + " *****\n");
 	//			unitAdminTypeDelete();	
 				unitAdminTypeInsert();
 				deleteProjectAccountants();
@@ -71,6 +71,7 @@ public class UpdateUnitAdminTypes {
 			System.out.println("\n   ***** START with UpdateUnitAdminTypes(); *****\n");
 			unitAdminTypeDelete();
 			unitAdminTypeInsert();
+			deleteProjectAccountants();
 			assignProjectAccountants();
 			System.out.println("\n   ***** END with UpdateUnitAdminTypes(); *****\n");
 		} catch (Exception ex) {

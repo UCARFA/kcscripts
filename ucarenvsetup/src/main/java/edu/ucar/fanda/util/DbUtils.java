@@ -12,9 +12,11 @@ public class DbUtils {
 		Connection conn = null;
 		String server = serverName;
 		int dbPort = 3306;
-		if (server.startsWith("kcnonprod")) {
+		if (server.startsWith("kcnonprod") && !server.equals("kcnonprod7")) {
 			String serverNumber = server.substring(server.length() - 1);
 			dbPort = Integer.parseInt(serverNumber + Integer.toString(dbPort));
+		} else if (server.equals("kcnonprod7")) {
+			dbPort = 7306;
 		}
 		
 		if (!server.equals("localhost")) {
