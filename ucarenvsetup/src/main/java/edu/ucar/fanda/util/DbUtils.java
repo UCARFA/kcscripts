@@ -17,6 +17,8 @@ public class DbUtils {
 			dbPort = Integer.parseInt(serverNumber + Integer.toString(dbPort));
 		} else if (server.equals("kcnonprod7")) {
 			dbPort = 7306;
+		} else if (server.equals("kuali")) {
+			dbPort = 13306;
 		}
 		
 		if (!server.equals("localhost")) {
