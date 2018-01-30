@@ -12,6 +12,7 @@ public class DbUtils {
 		Connection conn = null;
 		String server = serverName;
 		int dbPort = 3306;
+		String dbPassword = "kuali";
 		if (server.startsWith("kcnonprod") && !server.equals("kcnonprod7")) {
 			String serverNumber = server.substring(server.length() - 1);
 			dbPort = Integer.parseInt(serverNumber + Integer.toString(dbPort));
@@ -19,6 +20,7 @@ public class DbUtils {
 			dbPort = 7306;
 		} else if (server.equals("kuali")) {
 			dbPort = 13306;
+			dbPassword = "MuleD33r#";
 		}
 		
 		if (!server.equals("localhost")) {
@@ -28,7 +30,7 @@ public class DbUtils {
 		try {
 			MysqlDataSource dataSource = new MysqlDataSource();
 			dataSource.setUser("coeus");
-			dataSource.setPassword("kuali");
+			dataSource.setPassword(dbPassword);
 			dataSource.setServerName(server);
 			dataSource.setPort(dbPort);
 			dataSource.setDatabaseName("coeus");			
