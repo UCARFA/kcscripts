@@ -6,7 +6,7 @@ C,sandrews,Project Accountant,ASP
 C,jhudson,Procurement Contract Administrator,CHEMMOD
 U,kathyp,Lab/Program Administrator,CISL
 C,jhudson,Procurement Contract Administrator,COMMINSI
-U,cpene,Lab/Program Administrator,CPAESS
+U,pene,Lab/Program Administrator,CPAESS
 U,melanie,Lab/Program Administrator,CPAESS
 U,susanb,Lab/Program Administrator,CSAP
 U,haws,Lab/Program Administrator,DA
@@ -27,8 +27,8 @@ U,kathyp,Lab/Program Administrator,IMAGE
 C,lkramer,Project Accountant,IMAGE
 C,sandrews,Project Accountant,ISF
 U,susanb,Lab/Program Administrator,JNT
-C,barb,Project Accountant,JOSS
-C,bunting,Project Accountant,MP
+C,bbunting,Project Accountant,JOSS
+C,bbunting,Project Accountant,MP
 U,andreaem,Lab/Program Administrator,NCAR
 U,geoff,Lab/Program Administrator,NCAR
 U,konnie,Lab/Program Administrator,NCAR
@@ -70,8 +70,8 @@ C,sandrews,Project Accountant,RAF
 U,susanb,Lab/Program Administrator,RAL
 C,sandrews,Project Accountant,RSF
 C,jhudson,Procurement Contract Administrator,SATREMOT
-U,ksmithhe,Lab/Program Administrator,SciED
-U,nataliep,Lab/Program Administrator,SciED
+U,ksmithhe,Lab/Program Administrator,SCIED
+U,nataliep,Lab/Program Administrator,SCIED
 U,cquinn,Lab/Program Administrator,SOLAR
 U,joanneg,Lab/Program Administrator,SOLAR
 C,justinl,Procurement Contract Administrator,SOLAR
