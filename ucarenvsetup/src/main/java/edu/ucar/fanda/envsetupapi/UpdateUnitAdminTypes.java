@@ -35,7 +35,8 @@ public class UpdateUnitAdminTypes {
 	}
 	
 	public static void main(String[] args) {
-		
+		// Run on command line from target directory:
+		// java -cp ucarenvsetup-jar-with-dependencies.jar edu.ucar.fanda.envsetupapi.UpdateUnitAdminTypes <servername>
 		if (args.length == 0 || args.length > 1) {
 			System.out.println("Must have one and only one argument: server name.\n");
 		} else {
