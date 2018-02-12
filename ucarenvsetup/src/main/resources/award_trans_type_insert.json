@@ -36,11 +36,6 @@
 	},
 	{
 		"awardTransactionTypeCode": "0",
-		"description": "Termination-Transfer of Award",
-		"showInActionSummary": "true"
-	},
-	{
-		"awardTransactionTypeCode": "0",
 		"description": "_CONTRACTS-Administrative Action",
 		"showInActionSummary": "true"
 	},
