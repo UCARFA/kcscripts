@@ -93,5 +93,25 @@
 		"awardTransactionTypeCode": "0",
 		"description": "Supplemental Funding, Period of Performance Change, Scope Change",
 		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Increment, Period of Performance Change",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Suspension (Stop Work Order) - UCAR Issued",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Termination-Convenience - UCAR Issued",
+		"showInActionSummary": "true"
+	},
+	{
+		"awardTransactionTypeCode": "0",
+		"description": "Termination-Default - UCAR Issued",
+		"showInActionSummary": "true"
 	}
 ]

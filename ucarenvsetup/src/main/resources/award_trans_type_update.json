@@ -10,5 +10,17 @@
 	{
 		"oldName": "Supplement",
 		"newName": "Supplemental Funding"
+	},
+	{
+		"oldName": "Suspension (Stop Work Order)",
+		"newName": "Suspension (Stop Work Order) - Sponsor Issued"
+	},
+	{
+		"oldName": "Termination-Convenience",
+		"newName": "Termination-Convenience - Sponsor Issued"
+	},
+	{
+		"oldName": "Termination-Default",
+		"newName": "Termination-Default - Sponsor Issued"
 	}
 ]

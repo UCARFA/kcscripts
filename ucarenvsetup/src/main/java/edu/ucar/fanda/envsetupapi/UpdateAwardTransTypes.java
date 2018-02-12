@@ -22,6 +22,7 @@ public class UpdateAwardTransTypes {
 	private static String AWARD_TRANS_TYPE_API_URL;
 	private static String REST_API_USER;
 	private static String REST_API_PASSWORD;
+	private static String server;
 	
 	public UpdateAwardTransTypes (String serverName) {
 		AWARD_TRANS_TYPE_API_URL = "https://" + serverName + ".fanda.ucar.edu/ra/award/api/v1/award-transaction-types/";
@@ -30,14 +31,32 @@ public class UpdateAwardTransTypes {
 	}
 	
 	public static void main(String[] args) {
-		try {
-			awardTransactionTypeInsert();		
-			awardTransactionTypeUpdate();
-			awardTransactionTypeDelete();
+		// Run on command line from target directory:
+		// java -cp ucarenvsetup-jar-with-dependencies.jar edu.ucar.fanda.envsetupapi.UpdateAwardTransTypes <servername>
+		if (args.length == 0 || args.length > 1) {
+			System.out.println("Must have one and only one argument: server name.\n");
+		} else {
+			server = args[0];
+
+			if (server.equals("localhost")) {
+				AWARD_TRANS_TYPE_API_URL = "http://localhost:8080/kc-dev/award/api/v1/award-transaction-types/";
+				REST_API_USER = "admin";
+				REST_API_PASSWORD = "restapipassword";
+			} else {
+				AWARD_TRANS_TYPE_API_URL = "https://" + server + ".fanda.ucar.edu/ra/award/api/v1/award-transaction-types/";
+				REST_API_USER = "apiuser";
+				REST_API_PASSWORD = "BlueOrchid05";
+			}
+			try {
+				System.out.println("\n   ***** Running UpdateAwardTransTypes(); To server: " + server + " *****\n");
 //	SJW - The awardTransactionTypeInsertFix() method sets award_transaction_type table back to default installation
-// 			awardTransactionTypeInsertFix();
-		} catch (Exception e) {
-			e.printStackTrace();
+// 				awardTransactionTypeInsertFix();
+				awardTransactionTypeInsert();
+				awardTransactionTypeUpdate();
+				awardTransactionTypeDelete();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	
