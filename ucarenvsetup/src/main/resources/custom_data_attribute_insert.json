@@ -1,5 +1,126 @@
 [
 	{
+		"groupName": "Award Information",
+		"dataTypeCode": "2",
+		"dataLength": "25",
+		"defaultValue": null,
+		"name": "awardCeilingValue",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Award Ceiling Value",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "Award Information",
+		"dataTypeCode": "2",
+		"dataLength": "25",
+		"defaultValue": null,
+		"name": "awardFloorValue",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Award Floor Value",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "Award Information",
+		"dataTypeCode": "1",
+		"dataLength": "100",
+		"defaultValue": null,
+		"name": "awardCFDALocation",
+		"lookupClass": null,
+		"id": "0",
+		"label": "CFDA Location on Award",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "Award Information",
+		"dataTypeCode": "2",
+		"dataLength": "2",
+		"defaultValue": null,
+		"name": "awardCostLimitation",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Cost Limitation (Percentage)",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "Award Information",
+		"dataTypeCode": "2",
+		"dataLength": "3",
+		"defaultValue": null,
+		"name": "awardCostLimitNotifyPeriod",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Cost Limitation Notice (#days)",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "Award Information",
+		"dataTypeCode": "3",
+		"dataLength": "10",
+		"defaultValue": null,
+		"name": "awardFinalCloseDate",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Final Close Date",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "Award Information",
+		"dataTypeCode": "1",
+		"dataLength": "50",
+		"defaultValue": null,
+		"name": "awardCurrencyType",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Foreign Currency Type",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "File & Archive Information",
+		"dataTypeCode": "1",
+		"dataLength": "500",
+		"defaultValue": null,
+		"name": "awardFileLocationNotes",
+		"lookupClass": null,
+		"id": "0",
+		"label": "File Location Notes",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "File & Archive Information",
+		"dataTypeCode": "3",
+		"dataLength": "10",
+		"defaultValue": null,
+		"name": "awardDateCheckedOut",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Date Checked Out",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "File & Archive Information",
+		"dataTypeCode": "3",
+		"dataLength": "10",
+		"defaultValue": null,
+		"name": "awardDateSendToArchive",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Date to Send to Archive",
+		"lookupReturn": null
+	},
+	{
+		"groupName": "File & Archive Information",
+		"dataTypeCode": "1",
+		"dataLength": "25",
+		"defaultValue": null,
+		"name": "awardArchiveBoxNumber",
+		"lookupClass": null,
+		"id": "0",
+		"label": "Archive Box Number",
+		"lookupReturn": null
+	},
+	{
 	    "groupName": "Proposal Data",
 	    "dataTypeCode": "1",
 	    "dataLength": "500",

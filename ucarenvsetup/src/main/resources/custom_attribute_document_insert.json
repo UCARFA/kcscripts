@@ -1,5 +1,93 @@
 [
 	{
+		"name": "awardCeilingValue",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardFloorValue",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardCFDALocation",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardCostLimitation",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardCostLimitNotifyPeriod",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardFinalCloseDate",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardCurrencyType",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardFileLocationNotes",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardDateCheckedOut",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardDateSendToArchive",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
+		"name": "awardArchiveBoxNumber",
+		"id": "0",
+		"documentTypeName": "AWRD",
+		"required": "false",
+		"typeName": null,
+		"active": "true"
+	},
+	{
 		"name": "fullProposalTitle",
 		"id": "0",
 		"documentTypeName": "AWRD",

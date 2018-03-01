@@ -20,6 +20,7 @@ public class CreateCustomDataAttributes {
 	private static String CUSTOM_ATTRIBUTE_DOCS_API_URL;
 	private static String REST_API_USER;
 	private static String REST_API_PASSWORD;
+	private static String server;
 	
 	public CreateCustomDataAttributes (String serverName) {
 		CUSTOM_ATTRIBUTES_API_URL = "https://" + serverName + ".fanda.ucar.edu/ra/research-common/api/v1/custom-attributes/";
@@ -29,12 +30,33 @@ public class CreateCustomDataAttributes {
 	}
 	
 	public static void main(String[] args) {
-		try {		
-			customDataAttributeInsert();
-			customAttributeDocumentInsert();
-			System.out.println("Done!");
-		} catch (Exception e) {
-			e.printStackTrace();
+		// Run on command line from target directory:
+		// java -cp ucarenvsetup-jar-with-dependencies.jar edu.ucar.fanda.envsetupapi.CreateCustomDataAttributes <servername>
+		if (args.length == 0 || args.length > 1) {
+			System.out.println("Must have one and only one argument: server name.\n");
+		} else {
+			server = args[0];
+
+			if (server.equals("localhost")) {
+				CUSTOM_ATTRIBUTES_API_URL = "http://localhost:8080/kc-dev/research-common/api/v1/custom-attributes/";
+				CUSTOM_ATTRIBUTE_DOCS_API_URL = "http://localhost:8080/kc-dev/research-common/api/v1/custom-attribute-documents/";
+				REST_API_USER = "admin";
+				REST_API_PASSWORD = "restapipassword";
+			} else {
+				CUSTOM_ATTRIBUTES_API_URL = "https://" + server + ".fanda.ucar.edu/ra/research-common/api/v1/custom-attributes/";
+				CUSTOM_ATTRIBUTE_DOCS_API_URL = "https://" + server + ".fanda.ucar.edu/ra/research-common/api/v1/custom-attribute-documents/";
+				REST_API_USER = "apiuser";
+				REST_API_PASSWORD = "BlueOrchid05";
+			}
+
+			try {
+				System.out.println("\n   ***** Running CreateCustomDataAttributes(); To server: " + server + " *****\n");
+				customDataAttributeInsert();
+				customAttributeDocumentInsert();
+				System.out.println("\n   ***** End CreateCustomDataAttributes(); *****\n");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	
@@ -84,7 +106,7 @@ public class CreateCustomDataAttributes {
 				// Create array for new custom data attributes
 				JSONArray newCustDataAttrJsonArray = new JSONArray();
 				
-				// Through through file array to make sure there are no duplicates added
+				// Loop through file array to make sure there are no duplicates added
 				for (int i = 0; i < jsonFileArray.length(); ++i) {
 					boolean match = false;					
 					JSONObject newCustDataAttr = jsonFileArray.getJSONObject(i);
